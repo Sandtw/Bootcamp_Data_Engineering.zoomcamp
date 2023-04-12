@@ -2,15 +2,15 @@ locals {
   data_lake_bucket = "dtc_data_lake"
 }
 
-variable "credentials" {
-  type = string
-  description = "Ruta al archivo de credenciales de Google Cloud Platform en formato JSON"
-  default = "C:/SAND_ZOOMP/Classes/Semana1/02_terraform/root-blueprint-379706-58cd41798659.json"
-}
+# variable "credentials" {
+#  type = string
+#  description = "Ruta al archivo de credenciales de Google Cloud Platform en formato JSON"
+#  default = "D:/BIG-DATA/Especializaciones/Zoomcamp/Data Engineering/Semana1/02_terraform/root-blueprint-379706-58cd41798659.json"
+# }
 
 variable "project" {
     description = "Your GCP Project ID"
-    default = "root-blueprint-379706"
+#    default = "root-blueprint-379706"
 }
 
 variable "region" {

@@ -11,7 +11,7 @@ terraform {
 provider "google" {
   project = var.project
   region = var.region
-  credentials = file(var.credentials) # Usamos esto si no quiero establecer env-var GOOGLE_APPLICATION_CREDENTIALS
+  # credentials = file(var.credentials) # Usamos esto si no quiero establecer env-var GOOGLE_APPLICATION_CREDENTIALS
 }
 
 # DATA LAKE BUCKET
